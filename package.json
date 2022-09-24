@@ -1,0 +1,30 @@
+{
+  "name": "gspdemo3-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/vue-fontawesome": "^3.0.1",
+    "oh-vue-icons": "^1.0.0-rc3",
+    "vue": "^3.2.37",
+    "vue-unicons": "^3.3.1"
+  },
+  "devDependencies": {
+    "@iconify/vue": "^4.0.0",
+    "@tailwindcss/typography": "^0.5.7",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.1.0"
+  }
+}
