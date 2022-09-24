@@ -3,7 +3,7 @@
 <template>
   <div>
     <div
-      class="w-full h-screen bg-cover bg-no-repeat bg-fixed"
+      class="w-full h-screen bg-cover bg-no-repeat"
       id="third"
       style="background-image: url('src/components/images/pic5.jpg')"
     >

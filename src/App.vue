@@ -14,4 +14,4 @@ import Fourthpage from "./pages/Fourthpage.vue";
   <Fourthpage></Fourthpage>
 </template>
 
-<style scoped></style>
+<style></style>
