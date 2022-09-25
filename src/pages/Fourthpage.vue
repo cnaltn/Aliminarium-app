@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      image: { backgroundImage: "url('src/components/images/pic6.jpg')" },
+      image: { backgroundImage: "url('src/images/pic6.jpg')" },
     };
   },
 };
