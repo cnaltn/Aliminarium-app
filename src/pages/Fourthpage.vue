@@ -1,11 +1,19 @@
-<script></script>
+<script>
+export default {
+  data() {
+    return {
+      image: { backgroundImage: "url('src/components/images/pic6.jpg')" },
+    };
+  },
+};
+</script>
 
 <template>
   <div>
     <div
-      class="w-full h-screen bg-cover bg-no-repeat"
+      class="w-full h-screen bg-cover bg-no-repeat bg-"
       id="fourth"
-      style="background-image: url('src/components/images/pic6.jpg')"
+      :style="image"
     >
       <div
         class="w-full h-full flex flex-col justify-center items-center backdrop-brightness-50"
