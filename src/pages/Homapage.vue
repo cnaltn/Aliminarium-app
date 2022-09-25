@@ -30,17 +30,23 @@ export default {
         </transition>
 
         <p class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-thin tracking-tighter">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-          lectus erat consectetur eu sapien eget, rhoncus consectetur sem.
+          Always here for the best quality.
         </p>
-      </div>
+        <div class="flex sm:hidden">
+          <a href="#second">
+            <font-awesome-icon class="text-3xl p-5 text-white flex animate-bounce ease-in-out transition-all"
+              icon="fa-solid fa-chevron-down" />
+          </a>
+        </div>
 
-      <div class="">
+      </div>
+      <div class="hidden sm:flex">
         <a href="#second">
           <font-awesome-icon class="text-3xl p-5 text-white flex animate-bounce ease-in-out transition-all"
             icon="fa-solid fa-chevron-down" />
         </a>
       </div>
+
     </div>
   </section>
 

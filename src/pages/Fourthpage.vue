@@ -21,9 +21,15 @@ export default {
           processing centers, eccentric presses, drilling machines and
           mounting track in accordance with customer requests.
         </p>
+        <div class="flex sm:hidden">
+          <a href="#">
+            <font-awesome-icon class="text-3xl p-5 text-white flex animate-bounce ease-in-out transition-all"
+              icon="fa-solid fa-chevron-down" />
+          </a>
+        </div>
       </div>
-      <div class="">
-        <a href="#">
+      <div class="hidden sm:flex">
+        <a href="#footer">
           <font-awesome-icon class="text-3xl p-5 text-white flex animate-bounce ease-in-out transition-all"
             icon="fa-solid fa-chevron-down" />
         </a>

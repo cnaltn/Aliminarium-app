@@ -16,12 +16,17 @@ export default {
           We are here to best solution for you!
         </h1>
         <p class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-thin tracking-tighter">
-          We have been operating in Kayseri since 2018. Together with its many
-          stakeholders, we work solution oriented in line with the needs of
-          our customers.
+          We care our clients, so we always here for you. Our special support team contact
+          you whenever you need a help!
         </p>
+        <div class="flex sm:hidden">
+          <a href="#fourth">
+            <font-awesome-icon class="text-3xl p-5 text-white flex animate-bounce ease-in-out transition-all"
+              icon="fa-solid fa-chevron-down" />
+          </a>
+        </div>
       </div>
-      <div class="">
+      <div class="hidden sm:flex">
         <a href="#fourth">
           <font-awesome-icon class="text-3xl p-5 text-white flex animate-bounce ease-in-out transition-all"
             icon="fa-solid fa-chevron-down" />

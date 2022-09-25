@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar.vue";
 import Seconpage from "./pages/Seconpage.vue";
 import Thirpage from "./pages/Thirpage.vue";
 import Fourthpage from "./pages/Fourthpage.vue";
+import Footer from "./components/Footer/Footer.vue";
 
 
 
@@ -26,7 +27,7 @@ import Fourthpage from "./pages/Fourthpage.vue";
     <section>
       <Fourthpage></Fourthpage>
     </section>
-
+    <Footer></Footer>
 
 
 
@@ -40,6 +41,7 @@ section {
   height: 100vh;
   display: flex;
   scroll-snap-align: start;
+
   width: 100%;
 }
 
@@ -47,7 +49,16 @@ section {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
+  z-index: -1;
 
 
+
+
+
+}
+
+
+.container_::-webkit-scrollbar {
+  display: none;
 }
 </style>
