@@ -14,7 +14,7 @@ export default {
     <div class="w-full h-full flex flex-col justify-center items-center backdrop-brightness-50">
       <div class="flex flex-col gap-y-5 container mx-auto text-center justify-center h-full items-center text-white">
         <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold tracking-tighter">
-          We are care Mechanical Process a lot!
+          We care Mechanical Process a lot!
         </h1>
         <p class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-thin tracking-tighter">
           We serve with double head and single head angle cutting saws, CNC
