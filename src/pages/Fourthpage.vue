@@ -22,7 +22,7 @@ export default {
           mounting track in accordance with customer requests.
         </p>
         <div class="flex sm:hidden">
-          <a href="#">
+          <a href="#footer">
             <font-awesome-icon class="text-3xl p-5 text-white flex animate-bounce ease-in-out transition-all"
               icon="fa-solid fa-chevron-down" />
           </a>
