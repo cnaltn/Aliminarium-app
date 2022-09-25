@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      image: { backgroundImage: "url('src/images/pic6.jpg')" },
+      image: { backgroundImage: "url('src/assets/pic6.jpg')" },
     };
   },
 };
@@ -11,7 +11,7 @@ export default {
 <template>
   <div>
     <div
-      class="w-full h-screen bg-cover bg-no-repeat bg-"
+      class="w-full h-screen bg-cover bg-no-repeat bg-center"
       id="fourth"
       :style="image"
     >
