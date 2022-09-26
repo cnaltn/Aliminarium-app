@@ -3,7 +3,7 @@ import { ref } from 'vue'
 export default {
   data() {
     return {
-      image: { backgroundImage: "url('/pic3.jpg')" },
+      image: { backgroundImage: "url('/11.jpg')" },
     };
   },
   setup() {
@@ -21,15 +21,16 @@ export default {
 <template>
 
   <section class="w-full h-screen bg-cover bg-no-repeat bg-center" id="/" :style="image">
-    <div class="w-full h-full flex flex-col backdrop-brightness-50 items-center justify-between">
+    <div class="w-full h-full flex flex-col backdrop-brightness-[0.65] items-center justify-between">
       <div class="flex flex-col gap-y-5 container mx-auto text-center justify-center h-full items-center text-white">
         <transition name="fade">
-          <h1 v-if="open" class="text-5xl sm:text-5xl md:text-6xl lg:text-8xl font-bold tracking-tighter">
+          <h1 v-if="open"
+            class="text-5xl sm:text-5xl md:text-6xl lg:text-8xl drop-shadow-md font-bold tracking-tighter">
             GSP Trade
           </h1>
         </transition>
 
-        <p class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-thin tracking-tighter">
+        <p class="text-xl sm:text-2xl md:text-3xl lg:text-4xl drop-shadow-md font-thin tracking-tighter">
           Always here for the best quality.
         </p>
         <div class="flex sm:hidden">
