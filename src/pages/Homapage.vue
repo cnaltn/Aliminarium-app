@@ -1,17 +1,12 @@
 <script>
-import { ref } from 'vue'
+
 export default {
   data() {
     return {
       image: { backgroundImage: "url('/11.jpg')" },
     };
   },
-  setup() {
-    const open = ref(true)
-    return {
-      open,
-    }
-  },
+
 };
 
 
@@ -23,14 +18,15 @@ export default {
   <section class="w-full h-screen bg-cover bg-no-repeat bg-center" id="/" :style="image">
     <div class="w-full h-full flex flex-col backdrop-brightness-[0.65] items-center justify-between">
       <div class="flex flex-col gap-y-5 container mx-auto text-center justify-center h-full items-center text-white">
-        <transition name="fade">
-          <h1 v-if="open"
-            class="text-5xl sm:text-5xl md:text-6xl lg:text-8xl drop-shadow-md font-bold tracking-tighter">
-            GSP Trade
-          </h1>
-        </transition>
 
-        <p class="text-xl sm:text-2xl md:text-3xl lg:text-4xl drop-shadow-md font-thin tracking-tighter">
+        <h1 v-motion-slide-top :delay="200"
+          class="text-5xl sm:text-5xl md:text-6xl lg:text-8xl drop-shadow-md font-bold tracking-tighter">
+          GSP Trade
+        </h1>
+
+
+        <p v-motion-slide-bottom :delay="350"
+          class="text-xl sm:text-2xl md:text-3xl lg:text-4xl drop-shadow-md font-thin tracking-tighter">
           Always here for the best quality.
         </p>
         <div class="flex sm:hidden">
@@ -54,13 +50,5 @@ export default {
 </template>
 
 <style>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s ease;
-}
 
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
-}
 </style>

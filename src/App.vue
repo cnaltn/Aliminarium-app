@@ -7,21 +7,20 @@ import Fourthpage from "./pages/Fourthpage.vue";
 import Footer from "./components/Footer/Footer.vue";
 
 
-var isNS = (navigator.appName == "Netscape") ? 1 : 0;
-if (navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN || Event.MOUSEUP);
+var isNS = navigator.appName == "Netscape" ? 1 : 0;
+if (navigator.appName == "Netscape")
+  document.captureEvents(Event.MOUSEDOWN || Event.MOUSEUP);
 function mischandler() {
   return false;
 }
 function mousehandler(e) {
-  var myevent = (isNS) ? e : event;
-  var eventbutton = (isNS) ? myevent.which : myevent.button;
-  if ((eventbutton == 2) || (eventbutton == 3)) return false;
+  var myevent = isNS ? e : event;
+  var eventbutton = isNS ? myevent.which : myevent.button;
+  if (eventbutton == 2 || eventbutton == 3) return false;
 }
 document.oncontextmenu = mischandler;
 document.onmousedown = mousehandler;
 document.onmouseup = mousehandler;
-
-
 </script>
 
 <template>
@@ -40,12 +39,7 @@ document.onmouseup = mousehandler;
       <Fourthpage></Fourthpage>
     </section>
     <Footer></Footer>
-
-
-
-
   </div>
-
 </template>
 
 <style>
@@ -62,13 +56,7 @@ section {
   overflow-y: scroll;
   height: 100vh;
   z-index: -1;
-
-
-
-
-
 }
-
 
 .container_::-webkit-scrollbar {
   display: none;
