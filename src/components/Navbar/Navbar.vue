@@ -1,14 +1,10 @@
 <script></script>
 
 <template>
-  <div
-    class="w-full fixed z-20 bg-transparent border-b-2 backdrop-blur-sm border-white h-20 shadow-2xl"
-  >
-    <div
-      class="container mx-auto w-full flex text-white justify-between items-center h-full"
-    >
+  <div class="w-full fixed z-20 bg-transparent border-b-2 backdrop-blur-sm border-white h-20 shadow-2xl">
+    <div class="container mx-auto w-full flex text-white justify-between items-center h-full">
       <div class="flex">
-        <h1 class="text-white text-2xl">GSP Trade</h1>
+        <h1 class="text-white text-2xl font-bold">Aliminarium</h1>
       </div>
       <ul class="hidden md:flex items-center gap-x-10">
         <li>
@@ -28,4 +24,6 @@
   </div>
 </template>
 
-<style></style>
+<style>
+
+</style>

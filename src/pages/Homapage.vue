@@ -21,7 +21,7 @@ export default {
 
         <h1 v-motion-slide-top :delay="200"
           class="text-5xl sm:text-5xl md:text-6xl lg:text-8xl drop-shadow-md font-bold tracking-tighter">
-          GSP Trade
+          Aliminarium
         </h1>
 
 
